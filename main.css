@@ -2,6 +2,15 @@
 
 /* font-family: 'Red Hat Display', sans-serif; */
 
+:root {
+  --card-body: #fff;
+  --background-color: hsl(225, 100%, 94%);
+  --paragraph-color: hsl(224, 23%, 55%);
+  --header-color: hsl(223, 47%, 23%);
+  --black: #000;
+  --bright-blue: hsl(245, 75%, 52%);
+}
+
 *,
 *::before,
 *::after {
@@ -20,6 +29,9 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--background-color);
+  font-size: 16px;
 }
 
 img,
