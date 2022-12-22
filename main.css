@@ -133,7 +133,8 @@ div.container h2 {
   margin-left: -90px;
   padding: 0;
   color: var(--paragraph-color);
-  font-size: 0.9rem;;
+  font-size: 0.9rem;
+  ;
 }
 
 div.plan a {
@@ -163,4 +164,22 @@ button {
   font-size: 0.8rem;
   font-weight: 700;
   margin-bottom: 2rem;
+}
+
+/* ACTIVE STATES */
+
+.cancel:hover {
+  color: var(--header-color);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(245, 75%, 52%, 0.61);
+  cursor: pointer;
+}
+
+div.plan a:hover {
+  color: hsla(245, 75%, 52%, 0.61);
+  cursor: pointer;
+  text-decoration: none;
 }
