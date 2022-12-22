@@ -80,7 +80,7 @@ h6 {
   background-color: var(--card-body);
   border-radius: 1rem;
   margin: auto;
-  transform: translateY(50%);
+  transform: translateY(25%);
 }
 
 .hero-image {
@@ -91,4 +91,76 @@ h6 {
   height: 50px;
   width: 50px;
   background-color: var(--pale-blue);
+}
+
+div.container h1 {
+  text-align: center;
+  color: var(--header-color);
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding-top: 2rem;
+}
+
+.paragraph {
+  color: var(--paragraph-color);
+  text-align: center;
+  padding: 1.1rem;
+  margin: -0.5rem 2rem;
+  font-size: 0.9rem;
+}
+
+.plan {
+  background-color: var(--pale-blue);
+  border-radius: 1rem;
+  width: 320px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 0.8rem;
+  /* border: 1px solid #000; */
+  padding: 1rem;
+}
+
+div.container h2 {
+  font-size: inherit;
+  padding-left: 1rem;
+  margin-top: -22px;
+  color: var(--header-color);
+}
+
+.price {
+  margin-top: 22px;
+  margin-left: -90px;
+  padding: 0;
+  color: var(--paragraph-color);
+  font-size: 0.9rem;;
+}
+
+div.plan a {
+  margin-left: 90px;
+  font-size: 0.8rem;
+}
+
+button {
+  font-weight: 700;
+  color: var(--card-body);
+  background-color: var(--bright-blue);
+  border: none;
+  border-radius: 0.7rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 91px;
+  padding-right: 91px;
+  max-width: max-content;
+  font-size: 0.9rem;
+  margin: 1.9rem auto;
+  box-shadow: 1px 5px 10px hsla(228, 60%, 61%, 0.37);
+}
+
+.cancel {
+  text-align: center;
+  color: var(--paragraph-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
 }
