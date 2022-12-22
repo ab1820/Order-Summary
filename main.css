@@ -9,6 +9,7 @@
   --header-color: hsl(223, 47%, 23%);
   --black: #000;
   --bright-blue: hsl(245, 75%, 52%);
+  --pale-blue: hsl(225, 100%, 98%);
 }
 
 *,
@@ -23,7 +24,11 @@
 
 html,
 body {
-  height: 100%;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  background: url(./images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 body {
@@ -64,4 +69,26 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+/* MAIN CONTENT */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  background-color: var(--card-body);
+  border-radius: 1rem;
+  margin: auto;
+  transform: translateY(50%);
+}
+
+.hero-image {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.music-icon {
+  height: 50px;
+  width: 50px;
+  background-color: var(--pale-blue);
 }
